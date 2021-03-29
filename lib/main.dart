@@ -1,12 +1,17 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  int num = 1;
+  train_class x = new train_class();
 
-  do {
-    print("num = $num");
-    num++;
-  } while (num <= 100);
+  x.act_print();
+}
+
+class train_class {
+  void act_print() {
+    for (int i; i <= 100; i++) {
+      print("i = $i");
+    }
+  }
 }
 
 class MyApp extends StatelessWidget {
