@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  for (int i = 10; i <= 100; i++) {
-    print("i = $i");
+  var arr_data = ["Fisrt Data", "Second Data", "Third Data"];
+  for (var i_data in arr_data) {
+    print("I = $i_data");
   }
 }
 
