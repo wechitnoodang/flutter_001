@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  for (int i = 10; i <= 100; i++) {
+    print("i = $i");
+  }
 }
 
 class MyApp extends StatelessWidget {
