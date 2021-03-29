@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  var arr_data = ["Fisrt Data", "Second Data", "Third Data"];
-  for (var i_data in arr_data) {
-    print("I = $i_data");
-  }
+  int num = 1;
+
+  do {
+    print("num = $num");
+    num++;
+  } while (num <= 100);
 }
 
 class MyApp extends StatelessWidget {
